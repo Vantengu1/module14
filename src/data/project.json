@@ -1,0 +1,13 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "title": "ToDo-list",
+            "description": "This is ease todo list. Created on bases technology.",
+            "image": "/src/assets/images/project/myTODO.png",
+            "techStack": ["HTML", "JavaScript", "CSS"],
+            "livePreviewUrl": "https://vantengu1.github.io/myToDo/",
+            "codeUrl": "https://github.com/Vantengu1/myToDo"
+        }
+    ]
+}

@@ -1,0 +1,336 @@
+
+section {
+    width: 1900px;
+    margin: 0px;
+}
+
+/* Верхняя часть банера с именем и кнопкой действия */
+.baner__top {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    width: 100%;
+    padding: 0 125px;
+}
+
+.name p {
+    color: #ffffff;
+}
+
+.name p:first-child {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30.05px;
+    letter-spacing: 2px;
+    margin-left: 30px;
+}
+.name p:last-child {
+    text-transform: uppercase;
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 109.28px;
+    margin-left: 30px;
+}
+
+.picture {
+    margin-right: 70px;
+}
+
+.doing p {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+    margin-right: 30px;
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 79px;
+}
+.buttom_link {
+    max-width: 130px;
+    height: 66px;
+    background-color: #4A2CED;
+    border-radius: 100px;
+    margin: 10px;
+}
+.buttom_link img {
+    padding: 18px 50px;
+}
+
+
+/* В будущем видимо должно быть слайдером */
+.baner__middle {
+    height: 80px;
+    background-color: #0E0E10;
+    align-items: center;
+}
+.direction_list {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+.direction_list li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 20px;
+}
+.direction_list li p {
+    color: #D6D0FB;
+    margin-left: 10px;
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-transform: uppercase;
+}
+
+
+/* Нижняя часть банера с кратким описание работы */
+.baner__bottom {
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.speciale {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: start;
+    max-width: 600px;
+    margin-left: 50px;
+}
+.speciale p:first-child {
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: -1px;
+    color: #ffffff;
+    line-height: 60px;
+    margin: 10px;
+}
+.speciale p:nth-child(2) {
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    margin: 10px;
+}
+
+.speciale a {
+    display: flex;
+    color: #4A2CED;
+    font-weight: 600;
+    margin: 30px 10px 10px 10px;
+}
+.speciale a img {
+    width: 13px;
+    margin-left: 10px;
+}
+.speciale a:hover img{
+    transition: transform .3s ease-out;
+    transform: rotate(90deg);
+}
+
+
+.baner_art {
+    margin: 20px;
+    margin-right: 50px;
+    max-width: 500px;
+    height: 270px;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+.baner_art span {
+    line-height: 19%;
+    height: 200px;
+    width: 270px;
+    color: #ffffff;
+    font-size: 500px;
+    font-weight: 600;
+}
+.baner_art span:last-child {
+    display: block;
+    background-color: #ffffff;
+    width: 190px;
+    height: 40px;
+    margin-top: 150px;
+}
+
+
+.linkGitHub {
+    z-index: 100;
+    position: fixed;
+    left: 30px;
+    bottom: 30px;
+}
+.linkGitHub:hover {
+    transition: all 0.3s ease;
+    transform: translateY(-5px);
+}
+
+@media (max-width: 390px) {
+    section {
+        max-width: 390px;
+        margin: 0px;
+    }
+    .baner__top {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        padding: 0;
+        padding-top: 20px;
+        margin-left: -20px;
+        width: 100%;
+    }
+    .name {
+        margin-bottom: 38px;
+    }
+    .name p:first-child {
+        font-size: 19px;
+        font-weight: 500;
+        line-height: 30.05px;
+        letter-spacing: 2px;
+        margin-left: 30px;
+    }
+    .name p:last-child {
+        font-size: 38px;
+        font-weight: 600;
+        line-height: 54px;
+        margin-left: 30px;
+    }
+    .picture {
+        display: none;
+    }
+    
+    .doing p {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 360px;
+        margin-left: 36px;
+        color: #ffffff;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 21px;
+    }
+    .buttom_link {
+        max-width: 80px;
+        height: 48px;
+        background-color: #4A2CED;
+        border-radius: 100px;
+        margin-left: 10px;
+        margin-top: -15px;
+    }
+    .buttom_link img {
+        padding: 14px 30px;
+    }
+
+
+    .baner__middle {
+        max-width: 390px;
+        margin-top: 50px;
+        height: 62px;
+        background-color: #0E0E10;
+        display: flex;
+        align-items: center;
+        overflow-x: hidden;
+    }
+    .direction_list {
+        margin-top: -5%;
+        display: flex;
+        flex-direction: row;
+    }
+    .direction_list li {
+        width: 200px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 0 16px;
+    }
+    .direction_list li p {
+        margin-left: 6px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+    }
+
+
+    .baner__bottom {
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .speciale {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: start;
+        max-width: 390px;
+    }
+    .speciale p:first-child {
+        font-size: 40px;
+        font-weight: 900;
+        letter-spacing: -1px;
+        color: #ffffff;
+        line-height: 60px;
+        margin: 10px;
+    }
+    .speciale p:nth-child(2) {
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0.5px;
+        color: #ffffff;
+        margin: 10px;
+    }
+    
+    .speciale a {
+        font-size: 14px;
+        display: flex;
+        color: #4A2CED;
+        font-weight: 600;
+        margin: 30px 10px 10px 10px;
+    }
+    .speciale a img {
+        width: 11px;
+        margin-left: 8px;
+    }
+    .speciale a:hover img{
+        transition: transform .3s ease-out;
+        transform: rotate(90deg);
+    }
+    
+    
+    .baner_art {
+        margin: 80px 50px 0px -50px;
+        max-width: 360px;
+        height: 300px;
+        display: flex;
+        flex-direction: row;
+        align-items: end;
+    }
+    .baner_art span {
+        line-height: 19%;
+        height: 200px;
+        width: 270px;
+        color: #ffffff;
+        font-size: 500px;
+        font-weight: 600;
+    }
+    .baner_art span:last-child {
+        display: block;
+        background-color: #ffffff;
+        width: 190px;
+        height: 40px;
+        margin-top: 150px;
+    }
+    
+    
+    .linkGitHub {
+        display: none;
+    }
+}

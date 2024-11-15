@@ -1,0 +1,54 @@
+{
+    "technologies": [
+        {
+            "id": 1,
+            "name": "HTML5",
+            "icon": "src/assets/icons/skills/html5.svg"
+        },
+        {
+            "id": 2,
+            "name": "CSS3",
+            "icon": "src/assets/icons/skills/css3.svg"
+        },
+        {
+            "id": 3,
+            "name": "JavaScript",
+            "icon": "src/assets/icons/skills/js.svg"
+        },
+        {
+            "id": 4,
+            "name": "TypeScript",
+            "icon": "src/assets/icons/skills/ts.svg"
+        },
+        {
+            "id": 5,
+            "name": "React",
+            "icon": "src/assets/icons/skills/react.svg"
+        },
+        {
+            "id": 6,
+            "name": "Vite",
+            "icon": "src/assets/icons/skills/vite.svg"
+        },
+        {
+            "id": 7,
+            "name": "Figma",
+            "icon": "src/assets/icons/skills/figma.svg"
+        },
+        {
+            "id": 8,
+            "name": "Git",
+            "icon": "src/assets/icons/skills/git.svg"
+        },
+        {
+            "id": 9,
+            "name": "Bootstrap",
+            "icon": "src/assets/icons/skills/bootstrap.svg"
+        },
+        {
+            "id": 10,
+            "name": "Visual Studio Code",
+            "icon": "src/assets/icons/skills/vs.svg"
+        }
+    ]
+}

@@ -1,0 +1,221 @@
+.portfolio {
+    max-width: 1600px;
+    margin-left: 12%;
+    margin-top: 200px;
+}
+
+.block_one {
+    height: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    border-bottom: 1px solid #1C1C21;
+}
+
+.button_more {
+    margin-top: 26px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #ffffff;
+    padding: 16px 24px;
+    background-color: #1C1C21;
+    border: 1px solid #2F2F37;
+    border-radius: 10px;
+}
+.button_more:hover {
+    transition: all 0.3s ease;
+    background-color: #4A2CED;
+}
+
+.block_two {
+    margin-top: 80px;
+}
+
+.text {
+    max-width: 600px;
+    margin: auto;
+}
+.text p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #ffffff;
+}
+
+.grid {
+    margin-top: 80px;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+.content {
+    margin-left: 80px;
+}
+.content h4 {
+    color: #ffffff;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 60.1px;
+    margin-bottom: 20px;
+}
+.content p {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 60.1px;
+    margin-bottom: 20px;
+}
+.techStack {
+    display: flex;
+    gap: 20px;
+}
+.techStack span {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 60.1px;
+    margin: 0 10px 0 0 0;
+    padding: 0px 20px;
+    border: 1px solid #2F2F37;
+    border-radius: 100px;
+}
+
+.links {
+    margin-top: 50px;
+    display: flex;
+    gap: 50px;
+}
+.links a {
+    height: 30px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 60.1px;
+}
+.links a:hover {
+    color: #4A2CED;
+}
+
+@media (max-width: 390px) {
+    .portfolio {
+        max-width: 390px;
+        margin: 80px 0px 0 0px;
+    }
+    
+    .block_one {
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        border-bottom: 1px solid #1C1C21;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 58px;
+    }
+    .button_more {
+        margin: 26px 0 0 20px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        color: #ffffff;
+        padding: 16px 24px;
+        background-color: #1C1C21;
+        border: 1px solid #2F2F37;
+        border-radius: 10px;
+    }
+    
+    .block_two {
+        margin-top: 40px;
+    }
+    
+    .text {
+        max-width: 600px;
+        margin: auto;
+    }
+    .text p {
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 27px;
+        color: #ffffff;
+    }
+    
+    .grid {
+        margin-top: 40px;
+    }
+    
+    .card {
+        height: 650px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(7, 1fr);
+    }
+    .content {
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .imageContainer {
+        width: 370px;
+        margin: auto;
+        grid-row: 3 / 7;
+    }
+    .content h4 {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        color: #ffffff;
+        font-size: 44px;
+        font-weight: 600;
+        line-height: 60.1px;
+        margin: 0 auto 30px auto;
+    }
+    .content p {
+        text-align: center;
+        grid-row: 2 / 3;
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30.1px;
+        margin-bottom: 30px;
+    }
+    .techStack {
+        grid-row: 3 / 4;
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+    }
+    .techStack span {
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 60.1px;
+        margin: 0 10px 0 0 0;
+        padding: 0px 20px;
+        border: 1px solid #2F2F37;
+        border-radius: 100px;
+    }
+    
+    .links {
+        grid-row: 4 / 5;
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-around;
+        gap: 50px;
+    }
+    .links a {
+        height: 30px;
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 60.1px;
+    }
+}

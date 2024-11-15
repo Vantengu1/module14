@@ -1,0 +1,14 @@
+.buttonTheme {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    padding: 30px 40px;
+    border: 1px solid #1C1C21;
+    border-bottom: none;
+    border-top-right-radius: 10px;
+}
+.buttonTheme:hover {
+    background-color: #1C1C21;
+}

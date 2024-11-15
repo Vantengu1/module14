@@ -1,0 +1,13 @@
+{
+    "prototype": [
+        {
+            "id": 2,
+            "title": "This is mini site for looking weather",
+            "description": "This is site created with UI/UX designer Ivan...",
+            "image": "",
+            "techStack": ["React", "TypeScript", "SASS", "API"],
+            "livePreviewUrl": "",
+            "codeUrl": "https://github.com/Vantengu1/weather-"
+        }
+    ]
+}

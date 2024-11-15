@@ -1,0 +1,125 @@
+.servis {
+    max-width: 1600px;
+    margin-left: 12%;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.block_one {
+    height: 160px;
+    border-bottom: 1px solid #1C1C21;
+}
+
+.block_two {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.subtitle {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40.98px;
+    margin-bottom: 30px;
+}
+.block_text {
+    text-align: center;
+    max-width: 700px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 40.98px;
+    margin-bottom: 30px;
+}
+
+
+.block_skills {
+    margin: 80px auto 0 auto;
+    max-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+.block_skills .tech {
+    display: grid;
+    grid-template-rows: 90px 20px;
+    margin: 0 0px 3rem;
+    height: 110px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 40.98px;
+    margin-bottom: 10px;
+}
+.block_skills .tech img {
+    margin: auto;
+}
+.block_skills .tech span {
+    margin: auto;
+    text-align: center;
+}
+
+@media (max-width: 390px) {
+    .servis {
+        max-width: 390px;
+        margin: 80px 0px 0 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .block_one {
+        height: 160px;
+        border-bottom: 1px solid #1C1C21;
+    }
+    
+    .block_two {
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .subtitle {
+        color: #fff;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 25.98px;
+        margin: 0 10px 30px 10px;
+    }
+    .block_text {
+        text-align: center;
+        max-width: 360px;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 200;
+        letter-spacing: 0.3px;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+    
+    
+    .block_skills {
+        margin: 60px auto 0 auto;
+        max-width: 360px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .block_skills .tech {
+        display: grid;
+        grid-template-rows: 90px 20px;
+        margin: 0 0px 3rem;
+        height: 110px;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 40.98px;
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,67 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+}
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    line-height: 1.2;
+}
+
+p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+ul ol {
+    list-style: none;
+}
+ul, li {
+    list-style: none;
+  }
+  
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+div {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    transition: all 500ms linear;
+}
+
+.dark {
+    background-color: #070708;
+    color: #fff;
+}
+
+.light {
+    background-color: #ffffff;
+    color: #1a1818;
+}
