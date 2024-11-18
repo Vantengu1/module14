@@ -1,4 +1,4 @@
-/* eslint-disable react-refresh/only-export-components */
+ 
 import About from './components/About'
 import Downbaner from './components/Downbaner'
 import Footer from './components/Footer'
@@ -7,23 +7,22 @@ import Hero from './components/Hero'
 import Portfolio from './components/Portfolio'
 import Servis from './components/Servis'
 import './styles/globals.css'
-import { createContext, Dispatch, useState } from 'react'
+import { ThemeContext, themes } from '../src/contexts/ThemeContext'
+import Toggle from './components/Toggle/index'
 
-
-type ContextType = {
-  theme : string;
-  setTheme: Dispatch<React.SetStateAction<string>>
-}
-
-export const ThemeContext = createContext<ContextType | null>(null);
 
 function App() {
-
-  const [theme, setTheme] = useState("dark");
   
   return (
-    <ThemeContext.Provider value={{ theme, setTheme }}>
-      <div className={`container ${theme}`}>
+    <ThemeContext.Consumer>
+      {({ theme, setTheme }) => {
+        <Toggle
+            onChange={() => {
+              if (theme === themes.light) setTheme(themes.dark)
+              if (theme === themes.dark) setTheme(themes.light)
+            }}
+            value={theme === themes.dark} />
+          }}
         <Header />
         <main className='main'>
           <Hero />
@@ -33,8 +32,8 @@ function App() {
           <Downbaner />
         </main>
         <Footer />
-      </div>
-      </ThemeContext.Provider>
+
+    </ThemeContext.Consumer>
   )
 }
 

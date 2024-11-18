@@ -1,6 +1,6 @@
 //import { useState } from "react";
 import style from "./style.module.css"
-import SwitchTheme from "../SwitchTheme";
+// import SwitchTheme from "../SwitchTheme";
 
 // function HomePage() {
 //   return <h2>Главная страница</h2>;
@@ -41,7 +41,7 @@ const Header = () => {
                 <a onClick={() => setCurrentPage('about')}>About Me</a>
                 <a onClick={() => setCurrentPage('technology')}>Technologes</a>
                 <a onClick={() => setCurrentPage('project')}>Projects</a>
-                <SwitchTheme />
+                {/* <SwitchTheme /> */}
             </nav>
             <nav className={style.menu__burger}>
                 <button className={style.burger}></button>
@@ -50,7 +50,7 @@ const Header = () => {
                     <a onClick={() => setCurrentPage('about')}>About Me</a>
                     <a onClick={() => setCurrentPage('technology')}>Technologes</a>
                     <a onClick={() => setCurrentPage('project')}>Projects</a>
-                    <SwitchTheme />
+                    {/* <SwitchTheme /> */}
                 </div>
             </nav>
             <div className={style.socialsBlock}>
