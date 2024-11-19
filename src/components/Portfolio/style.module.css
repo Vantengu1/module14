@@ -9,7 +9,7 @@
     display: flex;
     justify-content: space-between;
     align-items: start;
-    border-bottom: 1px solid #1C1C21;
+    border-bottom: 1px solid var(--primary-color);
 }
 
 .button_more {
@@ -17,15 +17,15 @@
     font-size: 18px;
     font-weight: 500;
     line-height: 27px;
-    color: #ffffff;
+    color: var(--color);
     padding: 16px 24px;
-    background-color: #1C1C21;
-    border: 1px solid #2F2F37;
+    background: var(--primary-color);
+    border: 1px solid var(--primary-color);
     border-radius: 10px;
 }
 .button_more:hover {
     transition: all 0.3s ease;
-    background-color: #4A2CED;
+    background: var(--red-color);
 }
 
 .block_two {
@@ -41,7 +41,7 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 27px;
-    color: #ffffff;
+    color: var(--color);
 }
 
 .grid {
@@ -57,14 +57,14 @@
     margin-left: 80px;
 }
 .content h4 {
-    color: #ffffff;
+    color: var(--color);
     font-size: 44px;
     font-weight: 600;
     line-height: 60.1px;
     margin-bottom: 20px;
 }
 .content p {
-    color: #ffffff;
+    color: var(--color);
     font-size: 20px;
     font-weight: 400;
     line-height: 60.1px;
@@ -75,13 +75,13 @@
     gap: 20px;
 }
 .techStack span {
-    color: #ffffff;
+    color: var(--color);
     font-size: 18px;
     font-weight: 600;
     line-height: 60.1px;
     margin: 0 10px 0 0 0;
     padding: 0px 20px;
-    border: 1px solid #2F2F37;
+    border: 2px solid var(--primary-color);
     border-radius: 100px;
 }
 
@@ -92,13 +92,13 @@
 }
 .links a {
     height: 30px;
-    color: #ffffff;
+    color: var(--color);
     font-size: 18px;
     font-weight: 600;
     line-height: 60.1px;
 }
 .links a:hover {
-    color: #4A2CED;
+    color: var(--red-color);
 }
 
 @media (max-width: 390px) {

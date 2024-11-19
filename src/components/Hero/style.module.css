@@ -4,6 +4,7 @@ section {
     margin: 0px;
 }
 
+
 /* Верхняя часть банера с именем и кнопкой действия */
 .baner__top {
     display: flex;
@@ -15,7 +16,7 @@ section {
 }
 
 .name p {
-    color: #ffffff;
+    color: var(--color);
 }
 
 .name p:first-child {
@@ -42,7 +43,7 @@ section {
     flex-wrap: wrap;
     max-width: 500px;
     margin-right: 30px;
-    color: #ffffff;
+    color: var(--color);
     font-size: 60px;
     font-weight: 600;
     line-height: 79px;
@@ -50,7 +51,7 @@ section {
 .buttom_link {
     max-width: 130px;
     height: 66px;
-    background-color: #4A2CED;
+    background: var(--red-color);
     border-radius: 100px;
     margin: 10px;
 }
@@ -107,7 +108,7 @@ section {
     font-size: 50px;
     font-weight: 900;
     letter-spacing: -1px;
-    color: #ffffff;
+    color: var(--color);
     line-height: 60px;
     margin: 10px;
 }
@@ -115,13 +116,13 @@ section {
     font-size: 18px;
     line-height: 150%;
     letter-spacing: 0.5px;
-    color: #ffffff;
+    color: var(--color);
     margin: 10px;
 }
 
 .speciale a {
     display: flex;
-    color: #4A2CED;
+    color: var(--red-color);
     font-weight: 600;
     margin: 30px 10px 10px 10px;
 }
@@ -148,13 +149,13 @@ section {
     line-height: 19%;
     height: 200px;
     width: 270px;
-    color: #ffffff;
+    color: var(--color);
     font-size: 500px;
     font-weight: 600;
 }
 .baner_art span:last-child {
     display: block;
-    background-color: #ffffff;
+    background:var(--color);
     width: 190px;
     height: 40px;
     margin-top: 150px;
@@ -211,7 +212,6 @@ section {
         flex-wrap: wrap;
         max-width: 360px;
         margin-left: 36px;
-        color: #ffffff;
         font-size: 28px;
         font-weight: 600;
         line-height: 21px;
@@ -219,7 +219,6 @@ section {
     .buttom_link {
         max-width: 80px;
         height: 48px;
-        background-color: #4A2CED;
         border-radius: 100px;
         margin-left: 10px;
         margin-top: -15px;
@@ -233,7 +232,6 @@ section {
         max-width: 390px;
         margin-top: 50px;
         height: 62px;
-        background-color: #0E0E10;
         display: flex;
         align-items: center;
         overflow-x: hidden;
@@ -276,22 +274,18 @@ section {
         font-size: 40px;
         font-weight: 900;
         letter-spacing: -1px;
-        color: #ffffff;
         line-height: 60px;
         margin: 10px;
     }
     .speciale p:nth-child(2) {
         font-size: 14px;
         line-height: 150%;
-        letter-spacing: 0.5px;
-        color: #ffffff;
         margin: 10px;
     }
     
     .speciale a {
         font-size: 14px;
         display: flex;
-        color: #4A2CED;
         font-weight: 600;
         margin: 30px 10px 10px 10px;
     }
@@ -317,13 +311,11 @@ section {
         line-height: 19%;
         height: 200px;
         width: 270px;
-        color: #ffffff;
         font-size: 500px;
         font-weight: 600;
     }
     .baner_art span:last-child {
         display: block;
-        background-color: #ffffff;
         width: 190px;
         height: 40px;
         margin-top: 150px;

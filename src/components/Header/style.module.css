@@ -10,18 +10,18 @@
     height: 119px;
     width: 1920px;
     padding: 0 125px 0 125px;
-    background-color: #070708;
+    background: var(--background-primary);
     z-index: 10000;
-    border-bottom: 1px solid #1C1C21;
+    border-bottom: 1px solid var(--primary-color);
 }
 
 .logo {
     padding: 34px 40px 32px 40px;
     height: 119px;
-    border-left: 1px solid #1C1C21;
+    border-left: 1px solid var(--primary-color);
 }
 .logo span {
-    color: #ffffff;
+    color: var(--color);
     font-size: 30px;
     font-weight: 900;
     letter-spacing: -1;
@@ -36,13 +36,13 @@
     display: flex;
 }
 .nav a {
-    color: #ffffff;
+    color: var(--color);
     font-weight: 500;
     font-size: 18px;
     text-decoration: none;
     transition: color 0.3s ease;
     padding: 30px 40px;
-    border: 1px solid #1C1C21;
+    border: 1px solid var(--primary-color);
     border-bottom: none;
 }
 .nav a:first-child {
@@ -52,24 +52,24 @@
     border-radius: 0 10px 0 0;
 }
 .nav a:hover {
-    background-color: #1C1C21;
+    background: var(--primary-color);
 }
 
 .socialsBlock {
     padding: 34px 40px 32px 40px;
-    border-right: 1px solid #1C1C21;
+    border-right: 1px solid var(--primary-color);
 }
 .socials:hover {
     transition: all 0.3s ease;
-    background-color: #4A2CED;
+    background: var(--red-color);
 }
 .socials {
-    color: #ffffff;
+    color: var(--color);
     font-weight: 500;
     font-size: 18px;
     padding: 16px 24px;
-    background-color: #1C1C21;
-    border: 1px solid gray;
+    background: var(--primary-color);
+    border: 1px solid var(--primary-color);
     border-radius: 10px;
 }
 

@@ -31,7 +31,7 @@ h3 {
     font-size: 58px;
     font-weight: 600;
     line-height: 79.23px;
-    color: #ffffff;
+    color: var(--color);
     text-transform: uppercase;
 }
 
@@ -40,15 +40,15 @@ h3 {
     font-size: 18px;
     font-weight: 500;
     line-height: 27px;
-    color: #ffffff;
+    color: var(--color);
     padding: 16px 24px;
-    background-color: #1C1C21;
-    border: 1px solid #2F2F37;
+    background: var(--primary-color);
+    border: 1px solid var(--primary-color);
     border-radius: 10px;
 }
 .button_more:hover {
     transition: all 0.3s ease;
-    background-color: #4A2CED;
+    background: var(--red-color);
 }
 
 .block_two {
@@ -65,13 +65,13 @@ h3 {
 .block_info {
     width: 785px;
     min-height: 612px;
-    border: 1px solid #ffffff;
+    border: 1px solid var(--color);
     border-radius: 20px;
 }
 
 .introduction {
     padding: 40px;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid var(--color);
 }
 .title {
     display: flex;
@@ -80,7 +80,7 @@ h3 {
     font-size: 30px;
     font-weight: 500;
     line-height: 40.98px;
-    color: #ffffff;
+    color:  var(--color);
 }
 .title img {
     margin-right: 10px;
@@ -89,7 +89,7 @@ h3 {
     font-size: 18px;
     font-weight: 200;
     line-height: 27px;
-    color: #ffffff;
+    color:  var(--color);
 }
 
 .contact {
@@ -115,13 +115,13 @@ h3 {
     font-size: 18px;
     font-weight: 500;
     line-height: 27px;
-    color: #E4E4E6;
+    color: var(--color);
 }
 .mail a {
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
-    color: #AFB0B6;
+    color: var(--link);
 }
 
 .phone {
@@ -135,13 +135,13 @@ h3 {
     font-size: 18px;
     font-weight: 500;
     line-height: 27px;
-    color: #E4E4E6;
+    color: var(--color);
 }
 .phone a {
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
-    color: #AFB0B6;
+    color: var(--link);
 }
 
 .block_links {
@@ -151,21 +151,21 @@ h3 {
     padding: 10px;
     width: 200px;
     height: 68px;
-    border: 1px solid #1C1C21;
+    border: 1px solid var(--primary-color);
     border-radius: 100px;
     grid-column: 1 / 3;
     grid-row: 3 / 4;
 }
 
 .block_links img {
-    background-color: #ffffff;
+    background: #ffffff;
     border: 1px solid #ffffff;
     border-radius: 200px;
 }
 .block_links img:hover {
     transition: all 0.3s ease;
-    background-color: #4A2CED;
-    border: 1px solid #4A2CED;
+    background: var(--red-color);
+    border: 1px solid var(--red-color);
 }
 
 .button_block {
@@ -177,15 +177,15 @@ h3 {
     font-size: 18px;
     font-weight: 500;
     line-height: 27px;
-    color: #ffffff;
+    color: var(--color);
     padding: 18px 150px;
-    background-color: #1C1C21;
+    background-color: var(--primary-color);
     border-radius: 10px;
     border: none;
 }
 .button_works:hover {
     transition: all 0.3s ease;
-    background-color: #4A2CED;
+    background-color: var(--red-color);
 }
 
 @media (max-width: 390px) {
@@ -200,7 +200,6 @@ h3 {
         display: flex;
         flex-direction: column;
         justify-content: start;
-        border-bottom: 1px solid #1C1C21;
     }
     
     .name {
@@ -215,9 +214,7 @@ h3 {
         font-weight: 600;
         line-height: 27.32px;
         padding-left: 20px;
-        margin-bottom: 5px;
-        color: #797C86;
-        text-transform: uppercase;
+        margin-bottom: 5px;;
     }
     
     h3 {
@@ -225,8 +222,6 @@ h3 {
         font-size: 58px;
         font-weight: 600;
         line-height: 79.23px;
-        color: #ffffff;
-        text-transform: uppercase;
     }
     
     .about .button_block{
@@ -237,15 +232,8 @@ h3 {
         font-size: 18px;
         font-weight: 500;
         line-height: 27px;
-        color: #ffffff;
         padding: 16px 24px;
-        background-color: #1C1C21;
-        border: 1px solid #2F2F37;
         border-radius: 10px;
-    }
-    .button_more:hover {
-        transition: all 0.3s ease;
-        background-color: #4A2CED;
     }
     
     .block_two {
@@ -263,13 +251,11 @@ h3 {
         margin-top: 20px;
         width: 370px;
         min-height: 612px;
-        border: 1px solid #ffffff;
         border-radius: 20px;
     }
     
     .introduction {
         padding: 40px;
-        border-bottom: 1px solid #ffffff;
     }
     .title {
         display: flex;
@@ -278,7 +264,6 @@ h3 {
         font-size: 24px;
         font-weight: 500;
         line-height: 40.98px;
-        color: #ffffff;
     }
     .title img {
         width: 40px;
@@ -288,7 +273,6 @@ h3 {
         font-size: 14px;
         font-weight: 200;
         line-height: 27px;
-        color: #ffffff;
     }
     
     .contact {
@@ -314,13 +298,11 @@ h3 {
         font-size: 18px;
         font-weight: 500;
         line-height: 27px;
-        color: #E4E4E6;
     }
     .mail a {
         font-size: 20px;
         font-weight: 400;
         line-height: 30px;
-        color: #AFB0B6;
     }
     
     .phone {
@@ -334,13 +316,11 @@ h3 {
         font-size: 18px;
         font-weight: 500;
         line-height: 27px;
-        color: #E4E4E6;
     }
     .phone a {
         font-size: 20px;
         font-weight: 400;
         line-height: 30px;
-        color: #AFB0B6;
     }
     
     .block_links {
@@ -351,7 +331,6 @@ h3 {
         padding: 10px;
         width: 200px;
         height: 68px;
-        border: 1px solid #1C1C21;
         border-radius: 100px;
         grid-column: 1 / 2;
         grid-row: 4 / 5;
@@ -359,14 +338,6 @@ h3 {
     
     .block_links img {
         width: 50px;
-        background-color: #ffffff;
-        border: 1px solid #ffffff;
-        border-radius: 200px;
-    }
-    .block_links img:hover {
-        transition: all 0.3s ease;
-        background-color: #4A2CED;
-        border: 1px solid #4A2CED;
     }
     
     .contact .button_block {
@@ -378,14 +349,6 @@ h3 {
         font-size: 18px;
         font-weight: 500;
         line-height: 27px;
-        color: #ffffff;
         padding: 18px 60px;
-        background-color: #1C1C21;
-        border-radius: 10px;
-        border: none;
-    }
-    .button_works:hover {
-        transition: all 0.3s ease;
-        background-color: #4A2CED;
     }
 }

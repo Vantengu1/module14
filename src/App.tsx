@@ -15,25 +15,27 @@ function App() {
   
   return (
     <ThemeContext.Consumer>
-      {({ theme, setTheme }) => {
-        <Toggle
-            onChange={() => {
-              if (theme === themes.light) setTheme(themes.dark)
-              if (theme === themes.dark) setTheme(themes.light)
-            }}
-            value={theme === themes.dark} />
-          }}
-        <Header />
-        <main className='main'>
-          <Hero />
-          <About />
-          <Servis />
-          <Portfolio />
-          <Downbaner />
-        </main>
-        <Footer />
-
-    </ThemeContext.Consumer>
+            {({ theme, setTheme }) => (
+                <>
+                    <Toggle
+                        onChange={() => {
+                            if (theme === themes.light) setTheme(themes.dark);
+                            else setTheme(themes.light);
+                        }}
+                        value={theme === themes.dark}
+                    />
+                    <Header />
+                    <main className="main">
+                        <Hero />
+                        <About />
+                        <Servis />
+                        <Portfolio />
+                        <Downbaner />
+                    </main>
+                    <Footer />
+                </>
+            )}
+        </ThemeContext.Consumer>
   )
 }
 

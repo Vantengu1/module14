@@ -8,6 +8,19 @@
     /* Base colors */
     --primary-color: #1C1C21;
     --secondary-color: #fff;
+    --red-color: #E02500;
+
+    /* light theme color */
+    --background-primary-light: #fff;
+    --color-light: #070708;
+    --primary-color-light: #A1A9AA;
+    --link-light: #777777;
+
+    /* dark theme color */
+    --background-primary-dark: #070708;
+    --color-dark: #fff;
+    --primary-color-dark: #1C1C21;
+    --link-dark: #AFB0B6;
 
     /* Sizes */
     --container-width: 1200px;
@@ -20,17 +33,29 @@
     --spacing-lg: 3rem;
     --spacing-xl: 4rem;
 }
+[data-theme="light"] {
+    --background-primary: var(--background-primary-light);
+    --color: var(--color-light);
+    --primary-color: var(--primary-color-light);
+    --link: var(--link-light);
+}
+[data-theme="dark"] {
+    --background-primary: var(--background-primary-dark);
+    --color: var(--color-dark);
+    --primary-color: var(--primary-color-dark);
+    --link: var(--link-dark);
+}
 
 body {
     overflow-x: hidden;
     margin: 0;
     font-family: "Manrope", sans-serif;
     font-optical-sizing: auto;
-    background-color: #070708;
+    background: var(--background-primary);
 }
 
 .app {
-    background: var(--background);
+    background: var(--background-primary);
 }
 
 .main {
